@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home" android:id="@+id/Home" android:icon="@drawable/ic_home_black_24dp"
+          app:showAsAction="ifRoom"/>
+    <item android:title="Developer Info" android:id="@+id/Developer_info">
+        <menu
+        >
+            <item android:title="Call" android:id="@+id/action_Call"/>
+            <item android:title="MMS" android:id="@+id/action_MMS"/>
+            <item android:title="Email" android:id="@+id/action_Email"/>
+        </menu>
+    </item>
+    <item android:title="Search Site" android:id="@+id/Search_Site">
+        <menu
+        >
+            <item android:title="Google" android:id="@+id/action_Google"/>
+            <item android:id="@+id/action_Naver" android:title="Naver"/>
+            <item android:title="Acmicpc" android:id="@+id/action_Acmicpc"/>
+        </menu>
+    </item>
+</menu>

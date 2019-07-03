@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark"/>
+
+    <Spinner android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:id="@+id/second_number1"
+             android:background="@android:color/transparent"
+             android:entries="@android:array/emailAddressTypes"/>
+
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark"/>
+
+    <Spinner android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:id="@+id/second_number2"
+             android:background="@android:color/transparent"
+             android:entries="@android:array/emailAddressTypes"/>
+
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark"/>
+
+    <Spinner android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:id="@+id/second_number3"
+             android:background="@android:color/transparent"
+             android:entries="@android:array/emailAddressTypes"/>
+
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark"/>
+
+    <Spinner android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:id="@+id/second_number4"
+             android:background="@android:color/transparent"
+             android:entries="@android:array/emailAddressTypes"/>
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark"/>
+
+    <Spinner android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:id="@+id/second_number5"
+             android:background="@android:color/transparent"
+             android:entries="@android:array/emailAddressTypes"/>
+
+    <FrameLayout android:layout_width="1dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@color/colorPrimaryDark">
+    </FrameLayout>
+</LinearLayout>
